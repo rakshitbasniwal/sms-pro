@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); module.exports = mongoose.model('Subject', new mongoose.Schema({ name: String }, { timestamps: true }));
